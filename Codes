@@ -18,3 +18,13 @@ UPDATE `alish` SET `id`='6',`name`='ali' WHERE alish.id=1
 
 DELETE FROM `alish` WHERE alish.id=6
 
+SELECT alish.name,alish.id
+FROM alish
+WHERE alish.id LIKE "ali";
+
+SELECT alish.id(s)
+FROM alish
+WHERE id=alish.id
+GROUP BY alish.id(s)
+ORDER BY alish.id(s);
+
