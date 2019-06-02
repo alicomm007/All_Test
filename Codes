@@ -1,0 +1,20 @@
+با عرض سلام و خسته نباشید ؛ نمونه کد های تست شده روی دیتا بیس ایجاد شده
+
+SELECT * FROM alish , mar WHERE alish.id=mar.idm
+
+SELECT * FROM alish JOIN mar WHERE alish.id=mar.idm
+
+SELECT * FROM alish
+
+SELECT * FROM mar
+
+INSERT INTO `alish`(`name`) VALUES ("asghar")
+(id in AI)
+
+INSERT INTO `mar`(`name`) VALUES ("asghar")
+(id in AI)
+
+UPDATE `alish` SET `id`='6',`name`='ali' WHERE alish.id=1
+
+DELETE FROM `alish` WHERE alish.id=6
+
